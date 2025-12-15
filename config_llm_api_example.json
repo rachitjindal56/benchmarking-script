@@ -2,8 +2,13 @@
   "benchmark_type": "llm_api",
   "provider": "openai",
   "model_name": "gpt-4",
-  "auth_token": "sk-...",
+  "auth_token": "$env:OPENAI_API_KEY",
   "min_load": 1,
   "max_load": 10,
-  "dataset_file": "llm_dataset.json"
+  "dataset_file": "llm_dataset_example.json",
+  "enable_ramping": true,
+  "ramp_duration_seconds": 60,
+  "timeout": 60,
+  "use_chat": true,
+  "max_retries": 3
 }
