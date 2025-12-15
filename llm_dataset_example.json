@@ -1,0 +1,22 @@
+[
+  {
+    "id": "prompt_001",
+    "prompt": "What is machine learning?"
+  },
+  {
+    "id": "prompt_002",
+    "prompt": "Explain the concept of deep learning in simple terms."
+  },
+  {
+    "id": "prompt_003",
+    "prompt": "How do neural networks work?"
+  },
+  {
+    "id": "prompt_004",
+    "prompt": "What are transformers in AI?"
+  },
+  {
+    "id": "prompt_005",
+    "prompt": "Describe the training process of an LLM."
+  }
+]

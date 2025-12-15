@@ -1,0 +1,9 @@
+{
+  "benchmark_type": "llm_api",
+  "provider": "openai",
+  "model_name": "gpt-4",
+  "auth_token": "sk-...",
+  "min_load": 1,
+  "max_load": 10,
+  "dataset_file": "llm_dataset.json"
+}

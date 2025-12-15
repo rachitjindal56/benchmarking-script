@@ -1,0 +1,11 @@
+{
+  "benchmark_type": "system_api",
+  "endpoint": "https://api.example.com/v1/process",
+  "auth_token": "your_auth_token_here",
+  "json_path": "$.data",
+  "org_id": "org_12345",
+  "benchmark_run_id": "run_001",
+  "min_load": 1,
+  "max_load": 10,
+  "dataset_file": "dataset.json"
+}

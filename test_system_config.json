@@ -1,0 +1,14 @@
+{
+  "benchmark_type": "system_api",
+  "endpoint": "https://httpbin.org/post",
+  "auth_token": null,
+  "json_path": "$.payload",
+  "org_id": "test_org",
+  "benchmark_run_id": "test_run_001",
+  "min_load": 3,
+  "max_load": 100,
+  "enable_ramping": true,
+  "ramp_duration_seconds": 50,
+  "timeout": 200,
+  "dataset": "test_dataset.json"
+}

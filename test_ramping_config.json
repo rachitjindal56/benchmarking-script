@@ -1,0 +1,14 @@
+{
+  "benchmark_type": "system_api",
+  "endpoint": "https://api.restful-api.dev/objects",
+  "auth_token": "",
+  "json_path": "$.payload",
+  "org_id": "test_org",
+  "benchmark_run_id": "ramping_test_001",
+  "min_load": 1,
+  "max_load": 10,
+  "enable_ramping": true,
+  "ramp_duration_seconds": 120,
+  "timeout": 30,
+  "dataset": "test_dataset_large.json"
+}
