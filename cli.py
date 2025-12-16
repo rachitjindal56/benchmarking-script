@@ -55,7 +55,7 @@ class BenchmarkCLI:
         )
     
     def prompt_llm_api(self) -> LLMAPIConfig:
-        print("\n=== LLM API Benchmarking Configuration ===\n")
+        print("\nLLM API Benchmarking Configuration\n")
         
         print("Supported providers: openai, togetherai, anthropic")
         provider = input("Enter LLM provider: ").strip().lower()
@@ -89,7 +89,7 @@ class BenchmarkCLI:
         )
     
     def prompt_benchmark_type(self) -> str:
-        print("\n=== Benchmark Type Selection ===\n")
+        print("\nBenchmark Type Selection\n")
         print("1. System API Benchmark")
         print("2. LLM API Benchmark")
         
